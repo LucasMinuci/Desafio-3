@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    background-color: lightcoral;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.navbar input {
+    padding: 5px;
+    width: 200px;
+}
+
+.navbar button {
+    padding: 5px 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
